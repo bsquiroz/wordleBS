@@ -1,0 +1,25 @@
+.btn {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    color: var(--text-100);
+    font-weight: bold;
+    background-color: var(--bg-200);
+    outline: none;
+    transition: background-color 0.5s;
+}
+
+.btn:focus {
+    background-color: var(--bg-300);
+}
+
+.btn__verify {
+    border: 2px solid lightgreen;
+}
+
+.btn__reload {
+    border: 2px solid lightcoral;
+}

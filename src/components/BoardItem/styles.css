@@ -1,0 +1,47 @@
+.board__row--col {
+	width: 55px;
+	height: 55px;
+	font-size: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.2rem;
+	cursor: pointer;
+	border: none;
+	outline: 2px solid transparent;
+	transition: outline 0.5s;
+	text-align: center;
+	font-weight: bold;
+	color: var(--text-100);
+	transition: border 0.5s;
+	background-color: var(--bg-300);
+}
+
+.letter-yellow {
+	background-color: #e4a81d;
+}
+
+.letter-green {
+	background-color: #43a047;
+}
+
+.letter-grey {
+	background-color: #757575;
+}
+
+.letter-null {
+	/* background-color: var(--primary-200); */
+	/* border: 2px solid var(--primary-200); */
+}
+
+.board__row--disable {
+	cursor: auto;
+}
+
+.board__row--enable {
+	border: 2px solid var(--primary-200);
+}
+
+.board__row--col:focus {
+	border: 2px solid var(--text-100);
+}
